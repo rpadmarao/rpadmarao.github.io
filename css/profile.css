@@ -1,0 +1,93 @@
+body {
+    background-color: #032859;
+    padding-top: 130px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 40px;
+}
+
+#profile_img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 180px;
+    border: 3px solid white;
+}
+
+#profile-hello {
+    font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#profile-title {
+    text-shadow: 2px 2px 3px grey;
+}
+
+#profile-subtitle {
+    margin-top: -17px;
+    color: grey
+}
+
+#social-buttons-wrapper {
+    padding-top: 10px;
+}
+
+.social-buttons-links {
+
+    color: white;
+    padding-right: 15px;
+}
+
+.social-buttons-links:hover {
+    color: #3d9970;
+}
+
+.social-buttons-svg {
+    width: 50px;
+    color: red;
+}
+
+.a-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    top: 50%;
+    margin: 5px auto;
+    font: bold 13px Arial;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    border: 1px solid white;
+}
+
+.a-button:hover {
+    background-color: #3d9970;
+    color: #070730;
+}
+
+#profile-buttons-wrapper {
+    padding-top: 15px;
+}
+
+.profile-wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.makeitbold {
+    color:#3d9970;
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        padding-top: 50px;
+    }
+}
